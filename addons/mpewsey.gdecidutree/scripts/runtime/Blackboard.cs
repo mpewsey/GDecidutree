@@ -15,7 +15,7 @@ namespace MPewsey.GDecidutree
 
             for (int i = 0; i < count; i++)
             {
-                var node = GetChild<BlackboardNode>(i);
+                var node = GetChild<BlackboardEntryNode>(i);
                 AddValue(node.Key, node.GetValue());
             }
         }
