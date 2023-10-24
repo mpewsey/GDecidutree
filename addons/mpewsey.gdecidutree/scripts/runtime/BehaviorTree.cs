@@ -6,7 +6,7 @@ namespace MPewsey.GDecidutree
     [GlobalClass]
     public partial class BehaviorTree : Node
     {
-        [Export] public bool InitializeOnReady { get; set; } = true;
+        [Export] public bool InitializeOnReady { get; set; }
         [Export] public Blackboard Blackboard { get; set; }
         [Export] public BehaviorNode Root { get; set; }
         public bool IsInitialized { get; private set; }
