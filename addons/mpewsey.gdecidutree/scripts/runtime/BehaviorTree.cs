@@ -26,12 +26,15 @@ namespace MPewsey.GDecidutree
             if (Root == null)
                 throw new Exception($"Behavior tree does not have a root node assigned: {this}.");
 
+            Blackboard.Initialize();
             Root.Initialize(this);
             IsInitialized = true;
         }
 
         public BehaviorStatus Tick()
         {
+            if (!Blackboard.IsInitialized)
+                throw new Exception($"Blackboard has not been initialized: {Blackboard}.");
             if (!IsInitialized)
                 throw new Exception($"Behavior tree has not been initialized: {this}.");
 

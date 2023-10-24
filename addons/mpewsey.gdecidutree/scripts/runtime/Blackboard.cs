@@ -7,6 +7,7 @@ namespace MPewsey.GDecidutree
     public partial class Blackboard : Node
     {
         public Dictionary<StringName, object> Entries { get; } = new Dictionary<StringName, object>();
+        public bool IsInitialized { get; private set; }
 
         public void Initialize()
         {
@@ -18,6 +19,8 @@ namespace MPewsey.GDecidutree
                 var node = GetChild<BlackboardEntryNode>(i);
                 AddValue(node.Key, node.GetValue());
             }
+
+            IsInitialized = true;
         }
 
         public void Clear()
