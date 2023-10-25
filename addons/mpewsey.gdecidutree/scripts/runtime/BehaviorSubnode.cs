@@ -4,6 +4,7 @@ using MPewsey.GDecidutree.Exceptions;
 namespace MPewsey.GDecidutree
 {
     [GlobalClass]
+    [Icon(PluginResources.Icons.Object)]
     public abstract partial class BehaviorSubnode : Resource
     {
         public BehaviorTree Tree { get; private set; }

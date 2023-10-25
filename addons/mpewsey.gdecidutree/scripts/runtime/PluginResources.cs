@@ -4,6 +4,7 @@ namespace MPewsey.GDecidutree
     {
         public static class Icons
         {
+            public const string Object = "res://addons/mpewsey.gdecidutree/icons/object.svg";
             public const string Arrow = "res://addons/mpewsey.gdecidutree/icons/arrow.svg";
             public const string DoubleArrow = "res://addons/mpewsey.gdecidutree/icons/double_arrow.svg";
             public const string Circle = "res://addons/mpewsey.gdecidutree/icons/circle.svg";
