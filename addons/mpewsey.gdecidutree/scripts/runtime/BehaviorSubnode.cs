@@ -1,5 +1,5 @@
 using Godot;
-using System;
+using MPewsey.GDecidutree.Exceptions;
 
 namespace MPewsey.GDecidutree
 {
@@ -26,7 +26,7 @@ namespace MPewsey.GDecidutree
         public BehaviorStatus Tick()
         {
             if (!IsInitialized)
-                throw new Exception($"Behaviour subnode has not been initialized: {this}.");
+                throw new BehaviorSubnodeNotInitializedException($"Behaviour subnode has not been initialized: {this}.");
 
             return OnTick();
         }

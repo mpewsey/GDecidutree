@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 
 namespace MPewsey.GDecidutree
@@ -26,7 +27,7 @@ namespace MPewsey.GDecidutree
                 case ComparisonType.GreaterThanOrEqual:
                     return comparison >= 0;
                 default:
-                    throw new System.ArgumentException($"Unhandled comparison type: {type}.");
+                    throw new NotImplementedException($"Unhandled comparison type: {type}.");
             }
         }
     }

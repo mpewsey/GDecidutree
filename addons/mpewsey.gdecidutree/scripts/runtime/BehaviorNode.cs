@@ -1,4 +1,5 @@
 using Godot;
+using MPewsey.GDecidutree.Exceptions;
 using System;
 
 namespace MPewsey.GDecidutree
@@ -39,7 +40,7 @@ namespace MPewsey.GDecidutree
         public BehaviorStatus Tick()
         {
             if (!IsInitialized)
-                throw new Exception($"Behavior node has not been initialized: {this}.");
+                throw new BehaviorNodeNotInitializedException($"Behavior node has not been initialized: {this}.");
 
             foreach (var node in SubnodeInstances)
             {

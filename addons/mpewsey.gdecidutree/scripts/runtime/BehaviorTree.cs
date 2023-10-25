@@ -1,5 +1,5 @@
 using Godot;
-using System;
+using MPewsey.GDecidutree.Exceptions;
 
 namespace MPewsey.GDecidutree
 {
@@ -22,9 +22,9 @@ namespace MPewsey.GDecidutree
         public void Initialize()
         {
             if (Blackboard == null)
-                throw new Exception($"Behavior tree does not have a blackboard assigned: {this}.");
+                throw new BlackboardNotAssignedException($"Behavior tree does not have a blackboard assigned: {this}.");
             if (Root == null)
-                throw new Exception($"Behavior tree does not have a root node assigned: {this}.");
+                throw new RootNodeNotAssignedException($"Behavior tree does not have a root node assigned: {this}.");
 
             Blackboard.Initialize();
             Root.Initialize(this);
@@ -33,10 +33,10 @@ namespace MPewsey.GDecidutree
 
         public BehaviorStatus Tick()
         {
-            if (!Blackboard.IsInitialized)
-                throw new Exception($"Blackboard has not been initialized: {Blackboard}.");
             if (!IsInitialized)
-                throw new Exception($"Behavior tree has not been initialized: {this}.");
+                throw new BehaviorTreeNotInitializedException($"Behavior tree has not been initialized: {this}.");
+            if (!Blackboard.IsInitialized)
+                throw new BlackboardNotInitializedException($"Blackboard has not been initialized: {Blackboard}.");
 
             return Root.Tick();
         }
