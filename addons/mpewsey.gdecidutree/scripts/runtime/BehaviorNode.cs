@@ -5,6 +5,7 @@ using System;
 namespace MPewsey.GDecidutree
 {
     [GlobalClass]
+    [Icon(PluginResources.Icons.Ring)]
     public abstract partial class BehaviorNode : Node
     {
         [Export] public BehaviorSubnode[] Subnodes { get; set; } = Array.Empty<BehaviorSubnode>();

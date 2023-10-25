@@ -4,6 +4,7 @@ using System;
 namespace MPewsey.GDecidutree
 {
     [GlobalClass]
+    [Icon(PluginResources.Icons.QuestionMark)]
     public partial class SelectorNode : BehaviorNode
     {
         protected override void OnInitialize()

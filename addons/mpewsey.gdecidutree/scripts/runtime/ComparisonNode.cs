@@ -3,6 +3,7 @@ using Godot;
 namespace MPewsey.GDecidutree
 {
     [GlobalClass]
+    [Icon(PluginResources.Icons.GreaterThanOrEqual)]
     public partial class ComparisonNode : BehaviorNode
     {
         [Export] public StringName Key { get; set; }

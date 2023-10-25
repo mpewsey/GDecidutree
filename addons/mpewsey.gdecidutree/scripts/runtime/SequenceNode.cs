@@ -4,6 +4,7 @@ using System;
 namespace MPewsey.GDecidutree
 {
     [GlobalClass]
+    [Icon(PluginResources.Icons.Arrow)]
     public partial class SequenceNode : BehaviorNode
     {
         protected override void OnInitialize()

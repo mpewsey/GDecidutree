@@ -3,6 +3,7 @@ using Godot;
 namespace MPewsey.GDecidutree
 {
     [GlobalClass]
+    [Icon(PluginResources.Icons.Probability)]
     public partial class ProbabilitySubnode : BehaviorSubnode
     {
         [Export] public float ProbabilityOfSuccess { get; set; }
