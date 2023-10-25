@@ -68,7 +68,7 @@ namespace MPewsey.GDecidutree
 
             var result = new BehaviorNode[count];
 
-            for (int i = 0; i < count; i++)
+            for (int i = 0; i < result.Length; i++)
             {
                 result[i] = GetChild<BehaviorNode>(i);
             }
