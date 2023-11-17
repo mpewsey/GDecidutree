@@ -18,6 +18,8 @@ namespace MPewsey.GDecidutree
             public const string PlusSign = "res://addons/mpewsey.gdecidutree/icons/plus_sign.svg";
             public const string Probability = "res://addons/mpewsey.gdecidutree/icons/probability.svg";
             public const string GreaterThanOrEqual = "res://addons/mpewsey.gdecidutree/icons/greater_than_or_equal.svg";
+            public const string Bool = "res://addons/mpewsey.gdecidutree/icons/bool.svg";
+            public const string Minus = "res://addons/mpewsey.gdecidutree/icons/minus.svg";
         }
     }
 }
