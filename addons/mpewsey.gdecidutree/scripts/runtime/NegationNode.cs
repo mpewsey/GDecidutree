@@ -5,7 +5,7 @@ using System;
 namespace MPewsey.GDecidutree
 {
     [GlobalClass]
-    [Icon(PluginResources.Icons.Minus)]
+    [Icon(PluginResources.Icons.NegationNode)]
     public partial class NegationNode : BehaviorNode
     {
         protected override void OnInitialize()

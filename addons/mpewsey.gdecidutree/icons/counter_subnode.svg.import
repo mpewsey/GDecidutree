@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b0n5s46x270ck"
-path="res://.godot/imported/question_mark.svg-7a4fef25616a2698bdcd90adc2822c99.ctex"
+uid="uid://irbblt0pkte"
+path="res://.godot/imported/counter_subnode.svg-d029bb9e9a02221dcdeb286967c247ec.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/mpewsey.gdecidutree/icons/question_mark.svg"
-dest_files=["res://.godot/imported/question_mark.svg-7a4fef25616a2698bdcd90adc2822c99.ctex"]
+source_file="res://addons/mpewsey.gdecidutree/icons/counter_subnode.svg"
+dest_files=["res://.godot/imported/counter_subnode.svg-d029bb9e9a02221dcdeb286967c247ec.ctex"]
 
 [params]
 

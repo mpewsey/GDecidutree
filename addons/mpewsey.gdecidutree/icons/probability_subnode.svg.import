@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d3q8kydhnurd8"
-path="res://.godot/imported/arrow.svg-4aee8e654f2066b462d8954ad0831743.ctex"
+uid="uid://dbpod0jprfuhr"
+path="res://.godot/imported/probability_subnode.svg-c34eda27f6eb840a8db835d73fef9deb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/mpewsey.gdecidutree/icons/arrow.svg"
-dest_files=["res://.godot/imported/arrow.svg-4aee8e654f2066b462d8954ad0831743.ctex"]
+source_file="res://addons/mpewsey.gdecidutree/icons/probability_subnode.svg"
+dest_files=["res://.godot/imported/probability_subnode.svg-c34eda27f6eb840a8db835d73fef9deb.ctex"]
 
 [params]
 

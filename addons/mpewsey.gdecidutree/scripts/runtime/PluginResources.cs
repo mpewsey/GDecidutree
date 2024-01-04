@@ -4,22 +4,29 @@ namespace MPewsey.GDecidutree
     {
         public static class Icons
         {
-            public const string Object = "res://addons/mpewsey.gdecidutree/icons/object.svg";
-            public const string Arrow = "res://addons/mpewsey.gdecidutree/icons/arrow.svg";
-            public const string DoubleArrow = "res://addons/mpewsey.gdecidutree/icons/double_arrow.svg";
-            public const string Circle = "res://addons/mpewsey.gdecidutree/icons/circle.svg";
-            public const string RoundedSquare = "res://addons/mpewsey.gdecidutree/icons/rounded_square.svg";
-            public const string QuestionMark = "res://addons/mpewsey.gdecidutree/icons/question_mark.svg";
-            public const string Ring = "res://addons/mpewsey.gdecidutree/icons/ring.svg";
-            public const string Float = "res://addons/mpewsey.gdecidutree/icons/float.svg";
-            public const string Int = "res://addons/mpewsey.gdecidutree/icons/int.svg";
-            public const string Tree = "res://addons/mpewsey.gdecidutree/icons/tree.svg";
-            public const string PercentSign = "res://addons/mpewsey.gdecidutree/icons/percent_sign.svg";
-            public const string PlusSign = "res://addons/mpewsey.gdecidutree/icons/plus_sign.svg";
-            public const string Probability = "res://addons/mpewsey.gdecidutree/icons/probability.svg";
-            public const string GreaterThanOrEqual = "res://addons/mpewsey.gdecidutree/icons/greater_than_or_equal.svg";
-            public const string Bool = "res://addons/mpewsey.gdecidutree/icons/bool.svg";
-            public const string Minus = "res://addons/mpewsey.gdecidutree/icons/minus.svg";
+            public const string BehaviorTree = "uid://cei8l45w4e0se";
+            public const string BehaviorNode = "uid://dmigdll14gbnh";
+            public const string BehaviorSubnode = "uid://dd3w81p7vycdl";
+            public const string SelectorNode = "uid://cgupo35p3grv3";
+            public const string SequenceNode = "uid://dcgvwbxp3hj80";
+            public const string RandomSelectorNode = "uid://cwn44gi2pqneu";
+            public const string BlackboardNodeEntry = "uid://xfwx7p248ad6";
+            public const string Blackboard = "uid://k7hv0o6sybwm";
+            public const string BlackboardFloatEntry = "uid://c3lef0t7x2quv";
+            public const string BlackboardDoubleEntry = "uid://c71n8rb5kcs1x";
+            public const string BlackboardIntEntry = "uid://cfsocqmwppxcf";
+            public const string BlackboardResourceEntry = "uid://8dx77dja4dm";
+            public const string ModulusNode = "uid://bpjintr41f8dg";
+            public const string ModulusSubnode = "uid://bcq2jabygnkl7";
+            public const string CounterNode = "uid://d0m8xsuuod6yl";
+            public const string CounterSubnode = "uid://irbblt0pkte";
+            public const string ProbabilityNode = "uid://dv76avpeo7sx7";
+            public const string ProbabilitySubnode = "uid://dbpod0jprfuhr";
+            public const string ComparisonNode = "uid://ckdklxyl5ioae";
+            public const string ComparisonSubnode = "uid://bk75ugo8ms3t3";
+            public const string BooleanNode = "uid://bqdi3i1jkenwn";
+            public const string BooleanSubnode = "uid://ck3jmvedtglx7";
+            public const string NegationNode = "uid://cjyppmeiorx50";
         }
     }
 }

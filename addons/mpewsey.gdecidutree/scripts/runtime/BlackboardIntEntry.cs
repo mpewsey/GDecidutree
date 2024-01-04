@@ -3,7 +3,7 @@ using Godot;
 namespace MPewsey.GDecidutree
 {
     [GlobalClass]
-    [Icon(PluginResources.Icons.Int)]
+    [Icon(PluginResources.Icons.BlackboardIntEntry)]
     public partial class BlackboardIntEntry : BlackboardEntryNode
     {
         [Export] public override StringName Key { get; set; }

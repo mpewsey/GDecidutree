@@ -3,7 +3,7 @@ using Godot;
 namespace MPewsey.GDecidutree
 {
     [GlobalClass]
-    [Icon(PluginResources.Icons.DoubleArrow)]
+    [Icon(PluginResources.Icons.RandomSelectorNode)]
     public partial class RandomSelectorNode : SelectorNode
     {
         protected override BehaviorStatus OnTick()

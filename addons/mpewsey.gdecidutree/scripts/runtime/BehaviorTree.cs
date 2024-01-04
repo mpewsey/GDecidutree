@@ -4,7 +4,7 @@ using MPewsey.GDecidutree.Exceptions;
 namespace MPewsey.GDecidutree
 {
     [GlobalClass]
-    [Icon(PluginResources.Icons.Tree)]
+    [Icon(PluginResources.Icons.BehaviorTree)]
     public partial class BehaviorTree : Node
     {
         [Export] public bool InitializeOnReady { get; set; }

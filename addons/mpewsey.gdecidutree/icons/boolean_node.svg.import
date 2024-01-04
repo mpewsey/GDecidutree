@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bwgrj4bg0uaww"
-path="res://.godot/imported/float.svg-d0480170884aff6f2f401c881488623f.ctex"
+uid="uid://bqdi3i1jkenwn"
+path="res://.godot/imported/boolean_node.svg-1d5f212797f740c0de219108ce6b5c75.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/mpewsey.gdecidutree/icons/float.svg"
-dest_files=["res://.godot/imported/float.svg-d0480170884aff6f2f401c881488623f.ctex"]
+source_file="res://addons/mpewsey.gdecidutree/icons/boolean_node.svg"
+dest_files=["res://.godot/imported/boolean_node.svg-1d5f212797f740c0de219108ce6b5c75.ctex"]
 
 [params]
 

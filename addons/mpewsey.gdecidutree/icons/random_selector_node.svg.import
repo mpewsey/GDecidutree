@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://buh7ifjqhsqa5"
-path="res://.godot/imported/circle.svg-735748149841ff1e14ae7b550cf2c4da.ctex"
+uid="uid://cwn44gi2pqneu"
+path="res://.godot/imported/random_selector_node.svg-960d45506fc6e9d38ca2a88f74cd5384.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/mpewsey.gdecidutree/icons/circle.svg"
-dest_files=["res://.godot/imported/circle.svg-735748149841ff1e14ae7b550cf2c4da.ctex"]
+source_file="res://addons/mpewsey.gdecidutree/icons/random_selector_node.svg"
+dest_files=["res://.godot/imported/random_selector_node.svg-960d45506fc6e9d38ca2a88f74cd5384.ctex"]
 
 [params]
 

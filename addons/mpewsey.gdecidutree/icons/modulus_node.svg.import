@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d0kffwwp208o1"
-path="res://.godot/imported/rounded_square.svg-d368c30e66f5e124b05ba70e4f94d8ee.ctex"
+uid="uid://bpjintr41f8dg"
+path="res://.godot/imported/modulus_node.svg-59b0cfc1c3040ded5cb6efacacbe4163.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/mpewsey.gdecidutree/icons/rounded_square.svg"
-dest_files=["res://.godot/imported/rounded_square.svg-d368c30e66f5e124b05ba70e4f94d8ee.ctex"]
+source_file="res://addons/mpewsey.gdecidutree/icons/modulus_node.svg"
+dest_files=["res://.godot/imported/modulus_node.svg-59b0cfc1c3040ded5cb6efacacbe4163.ctex"]
 
 [params]
 

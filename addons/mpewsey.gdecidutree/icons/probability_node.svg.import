@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://rgghh6fte8yx"
-path="res://.godot/imported/probability.svg-9f8e57e7114595e43c923c8830b30b8e.ctex"
+uid="uid://dv76avpeo7sx7"
+path="res://.godot/imported/probability_node.svg-2e3cdc68be3c132e111e4567dd679dc2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/mpewsey.gdecidutree/icons/probability.svg"
-dest_files=["res://.godot/imported/probability.svg-9f8e57e7114595e43c923c8830b30b8e.ctex"]
+source_file="res://addons/mpewsey.gdecidutree/icons/probability_node.svg"
+dest_files=["res://.godot/imported/probability_node.svg-2e3cdc68be3c132e111e4567dd679dc2.ctex"]
 
 [params]
 

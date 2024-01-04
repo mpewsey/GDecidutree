@@ -3,7 +3,7 @@ using Godot;
 namespace MPewsey.GDecidutree
 {
     [GlobalClass]
-    [Icon(PluginResources.Icons.PlusSign)]
+    [Icon(PluginResources.Icons.CounterSubnode)]
     public partial class CounterSubnode : BehaviorSubnode
     {
         [Export] public StringName Key { get; set; }

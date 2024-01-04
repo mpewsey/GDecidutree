@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace MPewsey.GDecidutree
 {
     [GlobalClass]
-    [Icon(PluginResources.Icons.RoundedSquare)]
+    [Icon(PluginResources.Icons.Blackboard)]
     public partial class Blackboard : Node
     {
         public Dictionary<StringName, object> Entries { get; } = new Dictionary<StringName, object>();

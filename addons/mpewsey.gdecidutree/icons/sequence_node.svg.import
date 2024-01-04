@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dqg2ckml5rdc8"
-path="res://.godot/imported/tree.svg-690b730b2aa28e91d0b955a55663118e.ctex"
+uid="uid://dcgvwbxp3hj80"
+path="res://.godot/imported/sequence_node.svg-e55c9c6427e0723c7718be1b3868a17c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/mpewsey.gdecidutree/icons/tree.svg"
-dest_files=["res://.godot/imported/tree.svg-690b730b2aa28e91d0b955a55663118e.ctex"]
+source_file="res://addons/mpewsey.gdecidutree/icons/sequence_node.svg"
+dest_files=["res://.godot/imported/sequence_node.svg-e55c9c6427e0723c7718be1b3868a17c.ctex"]
 
 [params]
 
